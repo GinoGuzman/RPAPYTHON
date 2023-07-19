@@ -25,3 +25,5 @@ Puedes instalar las bibliotecas con el siguiente comando:
 2. Abre una terminal o línea de comandos y navega hasta el directorio donde se encuentra el código.
 3. Ejecuta el programa con el siguiente comando: python app.py
 4. Sigue las instrucciones en pantalla para ingresar los datos necesarios.
+
+##Configuracion de correo
