@@ -26,4 +26,18 @@ Puedes instalar las bibliotecas con el siguiente comando:
 3. Ejecuta el programa con el siguiente comando: python app.py
 4. Sigue las instrucciones en pantalla para ingresar los datos necesarios.
 
-##Configuracion de correo
+##Configuracion de correo  si tienes activo la utentificacion en dos pasos.
+
+1. Habilitar "Acceso a aplicaciones menos seguras" en tu cuenta de Gmail:
+
+    -Ve a la configuración de seguridad de tu cuenta de Gmail (https://myaccount.google.com/security).
+    -Desplázate hacia abajo hasta encontrar la opción "Acceso a aplicaciones menos seguras" y actívala. Esto permitirá que aplicaciones que utilizan contraseñas para     
+     acceder a tu cuenta de Gmail puedan conectarse.
+   
+3. Generar una contraseña de aplicación:
+   -Como una medida de seguridad adicional, es recomendable que generes una contraseña de aplicación específica para tu script de Python, en lugar de utilizar tu contraseña      principal de Gmail.
+   -Ve a la página de "Contraseña y métodos de inicio de sesión" de tu cuenta de Google (https://myaccount.google.com/apppasswords).
+   -Selecciona "Correo" como el tipo de aplicación y "Otra (nombre personalizado)" como el dispositivo.
+   -Ingresa un nombre para la aplicación (por ejemplo, "Python Email Script") y haz clic en "Generar".
+   -Anota la contraseña que se genera, ya que la necesitarás en tu script de Python.
+
