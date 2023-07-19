@@ -94,7 +94,7 @@ def send_email(sender_email, sender_password, receiver_email, subject, body, fil
         server.sendmail(sender_email, receiver_email, msg.as_string())
         server.quit()
 
-        messagebox.showinfo("Envío exitoso", "El correo electrónico se ha enviado correctamente.")
+        messagebox.showinfo("Envío exitoso", "El correo electrónico se ha enviado correctamente. Proceso Terminad.")
 
       
 
@@ -171,7 +171,8 @@ def get_txt_folder():
 
 if __name__ == "__main__":
     try:
-        get_email_credentials() 
+        get_email_credentials()
+         
     except Exception as e:  
         messagebox.showerror("Error",f"Se estan presentando el sigueinte problema en el main: {e}")
   
